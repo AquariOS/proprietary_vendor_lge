@@ -107,3 +107,78 @@ PRODUCT_COPY_FILES += \
     vendor/lge/bullhead/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
     vendor/lge/bullhead/proprietary/lib64/libloc_eng.so:system/lib64/libloc_eng.so \
     vendor/lge/bullhead/proprietary/lib64/libprotobuf-cpp-full.so:system/lib64/libprotobuf-cpp-full.so
+# Copyright 2016 The Android Open Source Project
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License..
+# Qualcomm blob(s) necessary for Bullhead hardware
+
+PRODUCT_COPY_FILES := \
+    vendor/lge/bullhead/proprietary/ATFWD-daemon:system/bin/ATFWD-daemon:qcom \
+    vendor/lge/bullhead/proprietary/cnd:system/bin/cnd:qcom \
+    vendor/lge/bullhead/proprietary/cnss-daemon:system/bin/cnss-daemon:qcom \
+    vendor/lge/bullhead/proprietary/diag_klog:system/bin/diag_klog:qcom \
+    vendor/lge/bullhead/proprietary/diag_mdlog:system/bin/diag_mdlog:qcom \
+    vendor/lge/bullhead/proprietary/imsdatadaemon:system/bin/imsdatadaemon:qcom \
+    vendor/lge/bullhead/proprietary/imsqmidaemon:system/bin/imsqmidaemon:qcom \
+    vendor/lge/bullhead/proprietary/ims_rtp_daemon:system/bin/ims_rtp_daemon:qcom \
+    vendor/lge/bullhead/proprietary/irsc_util:system/bin/irsc_util:qcom \
+    vendor/lge/bullhead/proprietary/location-mq:system/bin/location-mq:qcom \
+    vendor/lge/bullhead/proprietary/loc_launcher:system/bin/loc_launcher:qcom \
+    vendor/lge/bullhead/proprietary/lowi-server:system/bin/lowi-server:qcom \
+    vendor/lge/bullhead/proprietary/msm_irqbalance:system/bin/msm_irqbalance:qcom \
+    vendor/lge/bullhead/proprietary/netmgrd:system/bin/netmgrd:qcom \
+    vendor/lge/bullhead/proprietary/nl_listener:system/bin/nl_listener:qcom \
+    vendor/lge/bullhead/proprietary/perfd:system/bin/perfd:qcom \
+    vendor/lge/bullhead/proprietary/pm-proxy:system/bin/pm-proxy:qcom \
+    vendor/lge/bullhead/proprietary/pm-service:system/bin/pm-service:qcom \
+    vendor/lge/bullhead/proprietary/port-bridge:system/bin/port-bridge:qcom \
+    vendor/lge/bullhead/proprietary/qmakernote-xtract:system/bin/qmakernote-xtract:qcom \
+    vendor/lge/bullhead/proprietary/qmuxd:system/bin/qmuxd:qcom \
+    vendor/lge/bullhead/proprietary/radish:system/bin/radish:qcom \
+    vendor/lge/bullhead/proprietary/rmt_storage:system/bin/rmt_storage:qcom \
+    vendor/lge/bullhead/proprietary/subsystem_ramdump:system/bin/subsystem_ramdump:qcom \
+    vendor/lge/bullhead/proprietary/thermal-engine:system/bin/thermal-engine:qcom \
+    vendor/lge/bullhead/proprietary/time_daemon:system/bin/time_daemon:qcom \
+    vendor/lge/bullhead/proprietary/MTP_Bluetooth_cal.acdb:system/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:qcom \
+    vendor/lge/bullhead/proprietary/MTP_General_cal.acdb:system/etc/acdbdata/MTP/MTP_General_cal.acdb:qcom \
+    vendor/lge/bullhead/proprietary/MTP_Global_cal.acdb:system/etc/acdbdata/MTP/MTP_Global_cal.acdb:qcom \
+    vendor/lge/bullhead/proprietary/MTP_Handset_cal.acdb:system/etc/acdbdata/MTP/MTP_Handset_cal.acdb:qcom \
+    vendor/lge/bullhead/proprietary/MTP_Hdmi_cal.acdb:system/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb:qcom \
+    vendor/lge/bullhead/proprietary/MTP_Headset_cal.acdb:system/etc/acdbdata/MTP/MTP_Headset_cal.acdb:qcom \
+    vendor/lge/bullhead/proprietary/MTP_Speaker_cal.acdb:system/etc/acdbdata/MTP/MTP_Speaker_cal.acdb:qcom \
+    vendor/lge/bullhead/proprietary/profile.txt:system/etc/cne/profile.txt:qcom \
+    vendor/lge/bullhead/proprietary/dsi_config.xml:system/etc/data/dsi_config.xml:qcom \
+    vendor/lge/bullhead/proprietary/netmgr_config.xml:system/etc/data/netmgr_config.xml:qcom \
+    vendor/lge/bullhead/proprietary/qmi_config.xml:system/etc/data/qmi_config.xml:qcom \
+    vendor/lge/bullhead/proprietary/flp.conf:system/etc/flp.conf:qcom \
+    vendor/lge/bullhead/proprietary/izat.conf:system/etc/izat.conf:qcom \
+    vendor/lge/bullhead/proprietary/lowi.conf:system/etc/lowi.conf:qcom \
+    vendor/lge/bullhead/proprietary/cneapiclient.xml:system/etc/permissions/cneapiclient.xml:qcom \
+    vendor/lge/bullhead/proprietary/qcrilhook.xml:system/etc/permissions/qcrilhook.xml:qcom \
+    vendor/lge/bullhead/proprietary/qti_permissions.xml:system/etc/permissions/qti_permissions.xml:qcom \
+    vendor/lge/bullhead/proprietary/rcsservice.xml:system/etc/permissions/rcsservice.xml:qcom \
+    vendor/lge/bullhead/proprietary/qcril.db:system/etc/qcril.db:qcom \
+    vendor/lge/bullhead/proprietary/sap.conf:system/etc/sap.conf:qcom \
+    vendor/lge/bullhead/proprietary/thermal-engine-8992.conf:system/etc/thermal-engine-8992.conf:qcom \
+    vendor/lge/bullhead/proprietary/cneapiclient.jar:system/framework/cneapiclient.jar:qcom \
+    vendor/lge/bullhead/proprietary/qcrilhook.jar:system/framework/qcrilhook.jar:qcom \
+    vendor/lge/bullhead/proprietary/rcsimssettings.jar:system/framework/rcsimssettings.jar:qcom \
+    vendor/lge/bullhead/proprietary/rcsservice.jar:system/framework/rcsservice.jar:qcom \
+    vendor/lge/bullhead/proprietary/lib64/gps.msm8992.so:system/lib64/hw/gps.msm8992.so:qcom \
+    vendor/lge/bullhead/proprietary/lib64/libgps.utils.so:system/lib64/libgps.utils.so:qcom \
+    vendor/lge/bullhead/proprietary/lib64/libgps.utils.so:system/lib64/libgps.utils.so:qcom \
+    vendor/lge/bullhead/proprietary/gps.msm8992.so:system/lib/hw/gps.msm8992.so:qcom \
+    vendor/lge/bullhead/proprietary/lib64/android.hardware.biometrics.fingerprint@2.1.so:system/lib64/android.hardware.biometrics.fingerprint@2.1.so:qcom \
+    vendor/lge/bullhead/proprietary/lib64/android.hardware.configstore@1.0.so:system/lib64/android.hardware.configstore@1.0.so:qcom \
+    vendor/lge/bullhead/proprietary/lib64/android.hardware.usb@1.0.so:system/lib64/android.hardware.usb@1.0.so:qcom \
+    vendor/lge/bullhead/proprietary/lib64/android.hardware.wifi@1.0.so:system/lib64/android.hardware.wifi@1.0.so:qcom
